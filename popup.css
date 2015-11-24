@@ -1,0 +1,61 @@
+body {
+	text-align:center;
+	font-family:"Nunito",sans-serif;
+    background-color: #dd4455;
+    color: #ffffff;
+}
+
+button {
+	position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #33ee55;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    cursor:pointer;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border-style:solid;
+    border-width:2px;
+    border-color:#33ee55;
+    -webkit-box-shadow: 0px 9px 0px #119955, 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px #119955, 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px #119955, 0px 9px 25px rgba(0,0,0,.7);
+    margin: 10px auto;
+    margin-bottom: 30px;
+	width: 100px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+button:active {
+    -webkit-box-shadow: 0px 3px 0px #11bb44, 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px #11bb44, 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px #11bb44, 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+
+button:focus {
+    outline:0;
+}
+
+button:hover {
+    background-color: #22dd55;
+    border-color:#22dd55;
+}
+
+img {
+	width:300px;
+    cursor:default;
+}
