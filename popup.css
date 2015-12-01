@@ -1,14 +1,25 @@
 body {
 	text-align:center;
+<<<<<<< HEAD
 	font-family:"Arial",sans-serif;
+=======
+	font-family:"Nunito",sans-serif;
+    background-color: #dd4455;
+    color: #ffffff;
+>>>>>>> origin/master
 }
 
 button {
 	position: relative;
     color: #ffffff;
     text-decoration: none;
+<<<<<<< HEAD
     background-color: #87B127;
     font-family: 'Century Gothic';
+=======
+    background-color: #33ee55;
+    font-family: 'Nunito', sans-serif;
+>>>>>>> origin/master
     font-weight: 700;
     font-size: 2em;
     cursor:pointer;
@@ -19,6 +30,7 @@ button {
     border-radius: 8px;
     border-style:solid;
     border-width:2px;
+<<<<<<< HEAD
     border-color: #87B127;
     -webkit-box-shadow: 0px 9px 0px #284B0F, 0px 9px 25px rgba(0,0,0,.7);
     -moz-box-shadow: 0px 9px 0px #284B0F, 0px 9px 25px rgba(0,0,0,.7);
@@ -26,6 +38,15 @@ button {
     margin: 10px auto;
     margin-bottom: 30px;
 	width: 200px;
+=======
+    border-color:#33ee55;
+    -webkit-box-shadow: 0px 9px 0px #119955, 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px #119955, 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px #119955, 0px 9px 25px rgba(0,0,0,.7);
+    margin: 10px auto;
+    margin-bottom: 30px;
+	width: 100px;
+>>>>>>> origin/master
 	text-align: center;
 	
 	-webkit-transition: all .1s ease;
@@ -49,10 +70,19 @@ button:focus {
 }
 
 button:hover {
+<<<<<<< HEAD
     background-color: #4B8A1C;
     border-color:#4B8A1C;
+=======
+    background-color: #22dd55;
+    border-color:#22dd55;
+>>>>>>> origin/master
 }
 
 img {
 	width:300px;
+<<<<<<< HEAD
+=======
+    cursor:default;
+>>>>>>> origin/master
 }
