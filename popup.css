@@ -1,7 +1,7 @@
 body {
 	font-family:"Nunito",sans-serif;
-  background-color: #dd4455;
-  color: #ffffff;
+	background-color: #dd4455;
+	color: #ffffff;
 	margin: 0;
 	padding: 0;
 }
@@ -9,11 +9,11 @@ body {
 button {
 	width: 100%;
 	background: #33ee55;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 2rem;
-  cursor:pointer;
-  display: block;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 2rem;
+	cursor:pointer;
+	display: block;
 	outline: none;
 	transition: all .1s ease;
 	padding: 1rem;
@@ -22,11 +22,11 @@ button {
 }
 
 button:hover {
-  background: #22dd55;
+	background: #22dd55;
 }
 
 img {
 	display: block;
 	width:300px;
-  outline: none;
+	outline: none;
 }
